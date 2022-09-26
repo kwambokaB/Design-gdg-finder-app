@@ -110,7 +110,7 @@
         android:layout_gravity="end|bottom"
         android:layout_margin="@dimen/spacing_normal"
         app:srcCompat="@drawable/ic_gdg"
-        android:backgroundC="@color/secondaryColor"
+        android:background="@color/secondaryColor"
         android:onClick="@{() -> viewModel.onFabClicked()}"
         />
 
